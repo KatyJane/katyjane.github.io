@@ -1,0 +1,40 @@
+.relative{
+    position: relative;
+}
+
+
+.orange{
+    background-color: orange;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    height: 300px;    
+}
+
+.grey{
+    background-color: grey;
+    height: 300px;
+}
+
+/* Prze pozycji absolutnej blok traci swoja blokowosc i rozmiary moga sie zmienic
+Pozycjonuje element wzgledem innego elementu rodzica niestatycznego. A jezeli nie ma to wzgledem top/right*/
+
+/* Pozycja relatywna przesuwa sie od pierwotnego miejsca a to miejsce zostaje zarezerwowane */
+/*  */
+
+/* Kiedy gorna krawedz przegladarki dojdzie do niego to jest fixed. Przedtem jest relatywny. */
+
+#main-nav{
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: o;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+
+
+/* Cztery kwadraty
+
+container: position relative! */

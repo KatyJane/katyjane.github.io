@@ -1,0 +1,76 @@
+*{
+    color: red;
+}
+
+div.connected{
+    color: green;
+}
+
+/* before after: trzeba ustawic kontent aby byly widoczne */
+div.connected p::before{
+    content: '123456';
+    color:yellow;
+}
+
+div.connected p::after{
+    content: '5678';
+    color: blue;
+}
+
+/* Pseudoklasy */
+.hover a{
+    color: green;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+form input:focus{
+    border: 1px solid black;
+}
+
+ul li:first-child{
+    color: pink;
+}
+
+ul li:last-child{
+    color: aqua;
+}
+
+/* ul li:nth-of-type(even){ */
+    /* color:orange;} */
+
+ul li:nth-of-type(3n + 2){ /* od 2 i co trzecie */
+    color: orange;
+}
+
+/* Selektory atrybutow */
+
+input[title]{
+    border: 2px solid violet;
+}
+
+/* z konkretna wartoscia */
+
+input[title="szosty"]{
+    border: 2px solid grey;
+}
+
+input[title~="input"]{              /* sprawdz czy slowo "input" jest czescia opisu*/
+    border: 2px solid orange;
+}
+
+input[title*="pi"]{                 /* sprawdz czy "pi" jest vczescia opisu */
+    border: 2px solid yellow;
+}
+
+input[title^="pierw"]{              /* sprawdz czy rozpoczyna sie na ciag znakow*/
+    border: 2px solid black;
+}
+
+input[title$="ni"]{
+    border: 2px solid orange;      /* sprawdz czy konczy sie na ciag znakow*/
+}
