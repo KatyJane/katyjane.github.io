@@ -1,0 +1,27 @@
+* {
+    padding: 5px;
+    margin: 10px;
+    background-color: #D1F2EB;
+    color: #1C2833;
+}
+
+form {
+    border: 2px solid black;
+    width: 60%;
+}
+
+input, select, textarea {
+    border: 1px solid black;
+    caret-color: #3498DB;
+    font: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    background-color: #EAF2F8;
+}
+
+.button {
+    background-color: #02B2AD;
+    font-size: 16px;
+    color: black;
+    font-variant-caps: unicase;
+    font-weight: bold;
+}

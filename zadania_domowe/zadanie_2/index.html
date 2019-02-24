@@ -4,11 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Formularz kontaktowy</title>
 </head>
 <body>
-    
-    <p>Zadanie $</p>
-    
+
+    <form action="https://formspree.io/kat.hodiak@gmail.com" method="POST">
+        <input type="text" name="first-name" placeholder="Imię" size="30"> <br>
+        <input type="text" name="last-name" placeholder="Nazwisko" size="30"> <br>
+        <input type="text" name="email" placeholder="E-mail" size="30"> <br>
+        <input type="text" name="tel" placeholder="Numer telefonu" size="30"> <br>
+
+        <select name="city" id="city">
+            <option value="warszawa">Warszawa</option>
+            <option value="krakow">Kraków</option>
+            <option value="gdansk">Gdańsk</option>
+        </select> <br>
+        
+        <input type="radio" name="gender"> Mężczyzna <br>
+        <input type="radio" name="gender"> Kobieta <br>
+
+        <input type="checkbox"> Wyrażam zgodę na przetwarzanie moich danych osobowych w celach marketingowych. <br>
+
+        <textarea name="comments" Placeholder="Dodatkowe uwagi" rows="10" cols="80"></textarea> <br>
+
+        <input type="submit" value="Wyślij" class="button">
+    </form>
+
 </body>
 </html>
