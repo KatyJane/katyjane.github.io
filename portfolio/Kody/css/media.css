@@ -1,0 +1,96 @@
+@media all and (min-width: 993px) {
+
+}
+
+@media all and (max-width: 992px) {
+
+    #flex {
+        height: 170vh;
+    }
+
+    #sectionportfolio {
+        padding: 5%;
+    }
+
+    figure {
+        width: 50%;
+    }
+
+    input:not([type="submit"]) {
+        flex-basis: 49%;
+    }
+
+}
+
+@media all and (max-width: 768px) {
+    #flex {
+        height: 170vh;
+    }
+    
+    #omnie img {
+        width: 200px;
+    }
+
+    figure {
+        width: 100%;
+    }
+
+    input:not([type="submit"]) {
+        flex-basis: 100%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    h1 {
+        font-size: 300%;
+    }
+    
+    #flex {
+        height: 170vh;
+    }
+
+    #navigation {
+        height: auto;
+    }
+
+    .menu-label {
+        display: block;
+        text-align: right;
+        color: #fff;
+    }
+
+    #navigation ul {
+        display: none;
+    }
+
+    #navigation #menu:checked + ul {
+        display: block;
+    }
+
+    #navigation ul li {
+        display: block;
+        text-align: right;
+    }
+
+    #omnie img {
+        width: 200px;
+        margin: 0px 0px 20px 0px;
+    }
+
+    figure {
+        width: 100%;
+    }
+
+    #kontakt {
+        width: 100%;
+    }
+
+    #form {
+        flex-direction: column;
+    }
+
+    input {
+        flex-basis: 100%;
+    }
+
+}
