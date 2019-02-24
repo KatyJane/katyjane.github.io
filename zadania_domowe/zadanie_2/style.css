@@ -25,3 +25,8 @@ input, select, textarea {
     font-variant-caps: unicase;
     font-weight: bold;
 }
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
