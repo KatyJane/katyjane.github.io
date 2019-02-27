@@ -1,0 +1,23 @@
+@media all and (min-width: 993px) {
+
+header {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 10%;
+    right: 40px;
+    font-size: 30px;
+    color: white;
+}}
+
+
+@media all and (max-width: 992px) {
+
+h1 {
+    font-size: 25px;
+    color: black;
+    position: static;
+    text-align: center;
+}}

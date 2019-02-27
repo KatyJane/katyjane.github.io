@@ -1,0 +1,65 @@
+section {
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+div {
+    display: inline-block;
+}
+
+.kwadrat {
+    position: relative;
+    width: 100px;
+    height: 100px;
+
+}
+  
+  .kolo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  #kwadrat1, #kolo5 {
+    background-color: red;
+  }
+  
+  #kwadrat2, #kolo6 {
+    background-color: blue;
+  }
+  
+  #kwadrat3, #kolo4 {
+    background-color: darkgreen;
+  }
+  
+  #kwadrat4, #kolo8 {
+    background-color: yellow;
+  }
+  
+  #kwadrat5, #kolo9 {
+    background-color: black;
+  }
+  
+  #kwadrat6, #kolo7 {
+    background-color: orange;
+  }
+  
+  #kwadrat7, #kolo3 {
+    background-color: blueviolet;
+  }
+  
+  #kwadrat8, #kolo2 {
+    background-color: grey;
+  }
+  
+  #kwadrat9, #kolo1 {
+    background-color: pink;
+  }

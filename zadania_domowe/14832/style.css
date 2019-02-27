@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    background-color: black;
+}
+
+
+#text {
+    color: white;
+}
+
+#text:after {
+    content: "";
+    animation: text 11s ease-in-out infinite running;
+}
+
+
+@keyframes text {
+    0% {content: "10";}
+    9% {content: "9";}
+    18% {content: "8";}
+    27% {content: "7";}
+    36% {content: "6";}
+    45% {content: "5";}
+    54% {content: "4";}
+    63% {content: "3";}
+    72% {content: "2";}
+    81% {content: "1";}
+    90% {content: "I love CSS"};
+    100% {content: "I love CSS"};
+}
+
+span {
+    animation: fontsize 11s ease-in-out infinite running;
+  }
+  
+
+@keyframes fontsize {
+    0% {font-size: 300px;}
+    80% {font-size: 100px;} 
+    90% {font-size: 200px;}
+  }
